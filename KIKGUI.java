@@ -96,7 +96,6 @@ public class KIKGUI extends JFrame {
             biezacyGracz = "X";
     }
 
-
     private void jestZwyciezca() {
         if (stol[0][0].getText().equals(biezacyGracz) && stol[1][0].getText().equals(biezacyGracz) && stol[2][0].getText().equals(biezacyGracz)) {
             JOptionPane.showMessageDialog(null, "Gracz " + biezacyGracz + " zwyciężył");
