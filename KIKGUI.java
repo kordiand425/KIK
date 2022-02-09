@@ -17,7 +17,7 @@ public class KIKGUI extends JFrame {
     private JMenuItem nowaGra;
 
     public KIKGUI() {
-        super();
+        super(); //odnosi sie do JFrame
         pane = getContentPane();
         pane.setLayout(new GridLayout(3, 3));
         setTitle("Kółko i Krzyżyk");
